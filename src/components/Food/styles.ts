@@ -5,6 +5,7 @@ interface IFoodPlateProps {
 }
 
 export const Container = styled.div<IFoodPlateProps>`
+  max-width: 350px;
   background: #f0f0f5;
   border-radius: 8px;
 
@@ -23,6 +24,7 @@ export const Container = styled.div<IFoodPlateProps>`
       `};
 
     img {
+      width: 350px;
       pointer-events: none;
       user-select: none;
     }
